@@ -8,7 +8,19 @@ using namespace std;
 
 
 
-
+Header file:
+#ifndef person-H
+#define person-H
+#include <iostream>
+usnig namespace std;
+class person{
+private :
+string name;
+int id ;
+public:
+person (string name, int id );
+void display();
+#endif
 
 
 
